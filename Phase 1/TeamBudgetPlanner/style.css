@@ -1,0 +1,18 @@
+body{
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: chocolate;
+
+
+}
+
+input {
+    margin: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

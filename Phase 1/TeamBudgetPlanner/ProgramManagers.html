@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgramManager</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="TeamBudgetPlanner.js"></script>
+</head>
+<body>
+
+<h1>ADD NEW BUDGET</h1>
+
+    Client Name: <input type="text" id="clientName"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    Project Name: <input type="text" id="projectName"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    Budget: <input type="number" id="budget"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <input type="button" value="Add" onclick="storeData()" />
+    <input type="button" value="Clear" onclick="clearData()"/>
+    <button onclick="document.location='MainPage.html'">Return</button>
+
+    <!--<input type="button" value="Get Data" onclick="getData()"/>
+    <input type="button" value="Remove Data" onclick="removeData()"/>
+    <input type="button" value="Display in Table format" onclick="displayData()"/>-->
+    <hr/>
+    <div id="main">
+
+    </div>
+</body>
+</html>
