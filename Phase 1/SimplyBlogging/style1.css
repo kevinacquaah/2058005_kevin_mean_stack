@@ -1,0 +1,72 @@
+h1{
+    font-size: 3rem;
+  }
+  
+  #login .right
+  {
+    display: none;
+  }
+  
+  #login .left
+  {
+    width: 100vw;
+  }
+  
+  #login::before
+  {
+    width: 100%;
+  }
+  
+  #page-header,
+  #page-footer
+  {
+    flex-direction: column;
+  }
+  
+  .toggler,
+  .hamburger,
+  .hamburger > div,
+  .hamburger > div::before,
+  .hamburger > div::after
+  {
+    visibility: visible;
+  }
+  
+  #navlink
+  {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    
+    
+  }
+  
+  .toggler:checked ~ #navlink
+  {
+    opacity: 0.75;
+    height: 100%;
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  
+  @media (max-width: 400px)
+  {
+    #navlink
+    {
+      flex-direction: column;
+      text-align: center;
+  
+    }
+  
+    #navlink a
+    {
+      width: 100%;
+      padding: 0.2rem 0;
+      
+    }
+  
+    
+  }
+  

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css" media="screen and (max-width:768px)">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+  <title>SneakerHead |  Blog Post</title>
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+
+  <header id="page-header" class="bg-dark border-3">
+    <div class="text-center align-self-center p-3">
+      <a href="welcome.html"><i class="fas fa-shoes text-light fa-2x"> SneakerHead<span class="yellow">Affiliation</span></i></a>
+    </div>
+    <div id="toggler-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger bg-dark">
+        <div></div>
+      </div>
+      <nav id="navlink">
+        <a href="./welcome.html" id="home">Home</a>
+        <a href="./welcome.html#blog" id="blog-link">Blogs</a>
+        <a href="Posts.html" class="current">Post</a>
+        <a href="./Login.html">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Post Section -->
+
+  <section id="post">
+    <div class="container-md pt-5 mt-5">
+      <h1>Administer Posts</h1>
+      <div class="post_profile card-header border-r3 mb-3">
+        <div class="d-flex align-items-center text-center justify-content-around">
+          <img src="images/IMG_6226.jpg" alt="profile"
+            style="border-radius: 50%; height: 75px; width: 75px; border: black 5px solid;">
+          <p>Welcome Kevin</p>
+          <span class="text-muted text-right">Total Posts: 3<br>Total Likes: 5000<br>Total Unlikes: 786<br>Last online:
+            5th
+            August 2021, 03:39:00 EST </span>
+        </div>
+      </div>
+      <div id="post_manage">
+        <input type="checkbox" class="juggler">
+        <div class="indicator rounded-pill">
+          <div class="indicator1"></div>
+        </div>
+
+        <div class="card-header d-flex align-items-center justify-content-around text-center">
+
+          <h5 id="create-post" class="card-title create-post w-50" style="border-right: black 5px dotted">
+            Create Post
+          </h5>
+
+          <h5 id="manage-post" class="card-title manage-post w-50">
+            Administer Post
+
+          </h5>
+        </div>
+        <!-- Create post -->
+
+        <div id="create_card" class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="title" class="font-weight-bold">Article Title:</label>
+              <input type="text" class="form-control" placeholder="Tell us what this post is about " id="articleTitle">
+              <span class="text-danger" id="postTitleErrorMessage"></span>
+            </div>
+            <div class="form-group">
+              <label for="article" class="font-weight-bold">Article Content:</label>
+              <textarea class="form-control" id="articleContent" placeholder="Tell Us something"
+                rows="5"></textarea>
+              <span class="text-danger" id="postContentErrorMessage"></span>
+            </div>
+            <div class="form-group">
+              <label for="file" class="font-weight-bold">Article Media:</label>
+              <input type="file" class="form-control-file" id="file">
+              <span class="text-muted">Please restrict file size to 15MB</span>
+            </div>
+            <input type="button" class="btn btn-hover btn-dark col-md-6 d-block mx-auto border-r3" value="Post"
+              onClick="validatePost()"></input>
+            <input type="reset" value="Reset" class="btn btn-hover btn-dark mt-3 col-md-6 d-block mx-auto border-r3">
+          </form>
+        </div>
+
+        <!-- Accordion style Manage post -->
+
+        <div id="manage_card" class="pt-3 pb-3">
+          <div class="accordion" id="accordion_post">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Sneakers are the Best
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_post">
+                <div class="card-body">
+                  <article class="card mb-3 border-r3">
+                    <div class="row no-gutters">
+                      <div class="col-md-4 card-img article6">
+
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-header d-flex flex-row-reverse align-items-center">
+                          <img src="images/IMG_6226.jpg" alt="me"
+                            style="border-radius: 50%; height: 100px; width: 100px; border: black 5px solid;">
+                          <p class="blog-user text-muted">Kevin Acquaah</p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Sneakers are the Best</h5>
+                          <p class="card-text">I just ordered the Travis Scott Jordan 1 Fragments</p>
+
+                          <p class="card-text">I can't believe I got em</p>
+                          </a>
+                          <p class="card-text"><small class="text-muted">Last updated 1 hour ago</small></p>
+                        </div>
+                        <div class="card-footer text-center d-flex justify-content-around">
+                          <i class="fas fa-thumbs-up text-primary">897765</i>
+                          <i class="fas fa-thumbs-down text-danger">987</i>
+                          <i class="fas fa-comment-alt">7654</i>
+                          <i class="fas fa-trash-alt"></i>
+                          <i class="fas fa-share"></i>
+                        </div>
+                      </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left text-dark collapsed" type="button"
+                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Reasons why I don't like the SNKRS App
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_post">
+                <div class="card-body">
+                  <article class="card mb-3 border-l3">
+                    <div class="row flex-row-reverse no-gutters">
+                      <div class="col-md-4 card-img article7">
+
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-header d-flex align-items-center">
+                          <img src="images/IMG_6226.jpg" alt="me"
+                            style="border-radius: 50%; height: 100px; width: 100px; border: black 5px solid;">
+                          <p class="blog-user text-muted">Kevin Acquaah</p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"> Why I have a Love and Hate relationship with the SNKRS App </h5>
+                          <p class="card-text">Even though the App enables you to have a chance in obtaining 
+                              all the greatest shoes of all time, most of the time I don't understand how fast the shoes sell out.
+
+                          </p>
+
+                          <p class="card-text">I find myself thinking, is this app really worth it.</p>
+                          </a>
+                          <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                        </div>
+                        <div class="card-footer text-center d-flex justify-content-around">
+                          <i class="fas fa-thumbs-up text-primary">7864</i>
+                          <i class="fas fa-thumbs-down text-danger">35</i>
+                          <i class="fas fa-comment-alt">453</i>
+                          <i class="fas fa-trash-alt"></i>
+                          <i class="fas fa-share"></i>
+                        </div>
+                      </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer section -->
+
+  <footer id="page-footer" class="bg-dark border-u3 py-3 text-white footer">
+    <div class="text-center pt-2 pb-2">
+      <h5>SneakerHeadAffiliation &copy; All Rights reserved</h2>
+    </div>
+    <div id="social">
+      <a href="https://facebook.com" class="justify-self-start"><i class="fab fa-facebook-f fa-2x facebook"></i></a>
+      <a href="https://youtube.com"><i class="fab fa-youtube youtube fa-2x"></i></a>
+      <a href="https://twitter.com"><i class="fab fa-twitter twitter fa-2x"></i></a>
+    </div>
+  </footer>
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9700a5577c.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

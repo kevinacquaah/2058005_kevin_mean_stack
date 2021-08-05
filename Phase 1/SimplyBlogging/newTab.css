@@ -1,0 +1,28 @@
+@media (max-height: 450px)
+{
+  #login .left .fa-shoes
+  {
+    display: none;
+  }
+
+  #login .left .form-wrap
+  {
+    padding: 5px 5px;
+  }
+
+  #login .right
+{
+  display: none;
+}
+
+#login .left
+{
+  width: 100vw;
+}
+
+#login::before
+{
+  width: 100%;
+}
+
+}
