@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Management -> Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="purchasing.js"></script>
+</head>
+<body>
+    <h1 class="text-center">Kevin's Cart Management Store</h1>
+    <br/>
+    <h1 class="text-center">Shopping Cart</h1>
+    <h3 class ="text-center">Browse through some of our game consoles and have a good time !!!</h3>
+    <br/>
+<br/>
+<br/>
+<br/>
+    <p>Amount Of Items in Cart:
+    <div id="size">0
+    </div>
+    </p>
+    
+    <button type="button" class="btn btn-primary" onclick="document.location='shoppingcart.html' ">CHECKOUT</button>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+<div class= "row">
+    <div class="card col-5">
+        <img class="card-img-top" src="images/Xbox.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 class="card-title">XBOX SERIES X</h3>
+            <p class="card-text">
+                PRICE: $1199.00
+            </p>
+            <button type="button" class="btn btn-primary" onclick="IncludeInCart ('XBOX SERIES X', 1199.00)">ADD TO CART</button>
+        </div>
+        </div>
+<div class="card col-5">
+    <img class="card-img-top" src="https://m.media-amazon.com/images/I/71HlET2Ox7L._AC_SX679_.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h3 class="card-title">Nintendo Switch</h3>
+        <p class="card-text">
+            PRICE: $429.00
+        </p>
+        <button type="button" class="btn btn-primary" onclick="IncludeInCart ('Nintendo Switch', 429.00)">ADD TO CART</button>
+    </div>
+    </div>
+    <div class="card col-5">
+        <img class="card-img-top" src="images/ps5.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h3 class="card-title">PLAYSTATION 5</h3>
+            <p class="card-text">
+                PRICE: $1500.00
+            </p>
+            <button type="button" class="btn btn-primary" onclick="IncludeInCart ('PS5', 1500.00)">ADD TO CART</button>
+        </div>
+        </div>
+        <div class="card col-5">
+            <img class="card-img-top" src="images/psp.jpeg" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">PSP</h3>
+                <p class="card-text">
+                    PRICE: $500.00
+                </p>
+                <button type="button" class="btn btn-primary" onclick="IncludeInCart ('PSP', 500.00)">ADD TO CART</button>
+            </div>
+            </div>
+            <div class="card col-5">
+                <img class="card-img-top" src="images/gameboy.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">GAMEBOY COLOR</h3>
+                    <p class="card-text">
+                        PRICE: $479.00
+                    </p>
+                    <button type="button" class="btn btn-primary" onclick="IncludeInCart ('GAMEBOY COLOR', 479.00)">ADD TO CART</button>
+                </div>
+                </div>
+                <div class="card col-5">
+                    <img class="card-img-top" src="images/3ds.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">NINTENDO 3DS</h3>
+                        <p class="card-text">
+                            PRICE: $399.00
+                        </p>
+                        <button type="button" class="btn btn-primary" onclick="IncludeInCart ('NINTENDO 3DS', 399.00)">ADD TO CART</button>
+                    </div>
+                    </div>
+
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
