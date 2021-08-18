@@ -1,0 +1,30 @@
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+div{
+
+
+    /* margin: 3% 10% 3% 10%;
+    padding:10px; */
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: left;
+}
+
+form{
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: wheat;
+    text-emphasis-color: red;
+    
+}

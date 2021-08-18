@@ -1,0 +1,20 @@
+<div>
+
+  <h1 style="text-align: center; color: white;">Task-Tracker </h1>
+  <mat-grid-list cols="2">
+
+    <mat-grid-tile style="background-color: aquamarine">
+      <app-make-task
+        [taskArray]="taskArray">
+      </app-make-task>
+    </mat-grid-tile>
+
+    <mat-grid-tile style="background-color:darkorange">
+      <app-show-task
+        [taskArray]="taskArray">
+      </app-show-task>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+</div>

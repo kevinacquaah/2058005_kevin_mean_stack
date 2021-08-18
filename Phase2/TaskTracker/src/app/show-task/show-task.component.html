@@ -1,0 +1,45 @@
+<div style="background-color: lightslategray">
+    <h1>Show Task Table</h1>
+    <br/>
+    <br/>
+    <br/>
+    <button type="button"  (click)="random()">CLICK HERE</button>
+    <br/>
+    <br/>
+    
+    <table mat-table [dataSource]="taskArray" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+            The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="Employee ID">
+            <th mat-header-cell *matHeaderCellDef> Number,  </th>
+            <td mat-cell *matCellDef="let element"> {{element.eID}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="Name">
+            <th mat-header-cell *matHeaderCellDef> Name,  </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="Task">
+            <th mat-header-cell *matHeaderCellDef> Weight,  </th>
+            <td mat-cell *matCellDef="let element"> {{element.task}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="Deadline">
+            <th mat-header-cell *matHeaderCellDef> Symbol. </th>
+            <td mat-cell *matCellDef="let element"> {{element.deadline}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+
+
+</div>
