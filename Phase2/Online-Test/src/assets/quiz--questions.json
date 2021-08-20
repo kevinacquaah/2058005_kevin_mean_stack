@@ -1,0 +1,75 @@
+[
+    {
+        "question":"What is the name of the Jedi, that was supposed to save them and not destroy them?",
+        "ans1": "Ben Solo",
+        "ans2": "Anakin Skywalker",
+        "ans3": "Obi-Wan-Kenobi",
+        "ans4": "Yoda",
+        "correctAns":"Anakin Skywalker"
+    },
+    {
+        "question": "Who else can yield Thor's hammer Mjolnir?",
+        "ans1": "Finn & Jake",
+        "ans2": "Hulk",
+        "ans3": "Captain America",
+        "ans4": "Young Grogu",
+        "correctAns": "Captain America"
+    },
+    {
+        "question": "Who is the best soccer player in the world?",
+        "ans1": "Bugs Bunny",
+        "ans2": "Messi",
+        "ans3": "Ronaldo",
+        "ans4": "YoMama",
+        "correctAns": "Messi"
+    },
+    {
+        "question": "Who has the best finisher in Mortal Kombat?",
+        "ans1": "Liu Kang",
+        "ans2": "Sub-Zero",
+        "ans3": "Goro",
+        "ans4": "Joker",
+        "correctAns": "Liu Kang"
+    },
+    {
+        "question": "Who is the best Spider-Man of all time?",
+        "ans1": "Tom Holland",
+        "ans2": "Andrew Garfield",
+        "ans3": "Toby Maguire",
+        "ans4": "Obama",
+        "correctAns": "Andrew Garfield"
+    },
+    {
+        "question": "You wanna know, where we at?",
+        "ans1": "We're OUTSIDEEE",
+        "ans2": "Accra",
+        "ans3": "Mars",
+        "ans4": "Sweet-Home-Alabama",
+        "correctAns": "We're OUTSIDEEE"
+    },
+    {
+        "question": "Who is the best Nba player of all time?",
+        "ans1": "Chef Curry",
+        "ans2": "EasyMoney Sniper",
+        "ans3": "The Beard",
+        "ans4": "The Greak Freak",
+        "correctAns": "Chef Curry"
+    },
+    {
+        "question": "What is the best show of all time?",
+        "ans1": "My 600 Pound life",
+        "ans2": "Game of Thrones",
+        "ans3": "Stranger Things",
+        "ans4": "Kumkum Bhagya",
+        "correctAns": "Game of Thrones"
+    },
+    {
+        "question": "Who has the best Cinematic Universe?",
+        "ans1": "Marvel Comics",
+        "ans2": "DreamWorks",
+        "ans3": "DC",
+        "ans4": "Nat-Geo (Gordon Ramsay Uncharted)",
+        "correctAns": "Marvel Comics"
+    }
+
+]
