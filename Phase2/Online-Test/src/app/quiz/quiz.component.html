@@ -1,0 +1,20 @@
+<div>
+    <div class="quiz-header"> Online Test Quiz</div>
+<br/>
+<br/>
+    <div class="quiz-body" style="background-color: aqua;">
+        <form [formGroup]="myForm" (ngSubmit)="submitQ()">
+            <div *ngFor="let q of myQuestions | async; index as i">
+                <p>Question {{i+1}}: {{q.question}}</p>
+                <input type="radio" formControlName={{q.question}} value={{q.ans1}} />{{q.ans1}}<br />
+                <input type="radio" formControlName={{q.question}} value={{q.ans2}} />{{q.ans2}}<br />
+                <input type="radio" formControlName={{q.question}} value={{q.ans3}} />{{q.ans3}}<br />
+                <input type="radio" formControlName={{q.question}} value={{q.ans4}} />{{q.ans4}}<br /> 
+                <br/>
+            </div>
+
+            <button type="submit" mat-raised-button style="background-color:#990d2b; margin: 24px;" >Submit Quiz</button>
+        </form>
+    </div>
+
+</div>

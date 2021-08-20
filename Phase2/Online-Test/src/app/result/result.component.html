@@ -1,0 +1,28 @@
+<div>
+    <div class="quiz-header">Quiz Results</div>
+    <br/>
+    <div class="quiz-body" style="background-color:darkolivegreen;">
+        <!-- for each question ...  -->
+        <div *ngFor="let q of myQuestions | async; index as i">
+            <!-- display question -->
+            <span style="font-size: larger;">Question {{i+1}}: {{q.question}}</span>
+            <br/>
+            <!-- if answered wrong, display submitted answer in red -->
+            <div *ngIf="myAnswers[i] != q.correctAns">
+                <span style="color: red;" *ngIf="myAnswers[i] == '' ">Your answer: No answer detected</span>
+                <span style="color: red;" *ngIf="myAnswers[i] != '' ">Your answer: {{myAnswers[i]}}</span>
+            </div>
+            <!-- display correct answer -->
+            <span style='color:rgb(186, 190, 186)'>Correct answer: {{q.correctAns}}</span>
+            <br/>
+            <br/>
+        </div>
+        <!-- display total score and pass/no pass -->
+        <span>Total Correct: {{numCorrect}}</span> <br/>
+        <span style="font-size: larger; color:rgb(240, 243, 240)" *ngIf="numCorrect/myAnswers.length >= 0.6"> You Passed! </span>
+        <span style="font-size: larger; color:red" *ngIf="numCorrect/myAnswers.length < 0.6"> You Failed </span>
+        <hr/>
+        <button type="button" mat-raised-button style="background-color:#920d0d; margin: 10px;" (click)="gotoQuiz()">Back to Quiz</button>
+    </div>
+
+</div>

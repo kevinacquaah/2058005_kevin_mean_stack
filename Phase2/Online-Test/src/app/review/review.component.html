@@ -1,0 +1,16 @@
+<div>
+    <div class="quiz-header">Review Quiz Answers</div>
+<br/>
+    <div class="quiz-body" style="background-color: coral;">
+        <!-- for each question, display question and submitted answer -->
+        <div *ngFor="let q of myQuestions | async; index as i">
+            <span style="font-size: larger;">{{q.question}}</span>
+            <p>Your Answer: {{myAnswers[i]}}</p>
+            <br/>
+        </div>
+        <hr/>
+        <button type="button" mat-raised-button style="background-color:black; margin: 10px;" (click)="gotoQuiz()">Back to Quiz</button>
+        <button type="button" mat-raised-button style="background-color:darkslategrey; margin: 10px;" (click)="gotoResult()">Show Result</button>
+    </div>  
+
+</div>
