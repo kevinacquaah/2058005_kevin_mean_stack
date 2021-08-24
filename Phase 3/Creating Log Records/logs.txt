@@ -1,0 +1,111 @@
+[08/23/2021 - 5:15:02 PM]: === Creating Log File ===
+[08/23/2021 - 5:16:40 PM]: ****** User Inputted the Following *******
+{
+            "fname": "Steph",
+            "lname": "Curry",
+            "gender": "male",
+            "email": "steph.curry@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:16:40 PM"
+}
+[08/23/2021 - 5:16:40 PM]: === Created JSON LogRecords file ===
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:17:03 PM]: ****** User Inputted the Following *******
+{
+            "fname": "Chandler",
+            "lname": "Bing",
+            "gender": "male",
+            "email": "mr.jokes@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:17:03 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:18:58 PM]: ****** User Inputted the Following *******
+{
+            "fname": "LeBron",
+            "lname": "James",
+            "gender": "male",
+            "email": "king.james@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:18:58 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:20:00 PM]: ****** User Inputted the Following *******
+{
+            "fname": "Jennifer",
+            "lname": "Aniston",
+            "gender": "female",
+            "email": "so.fine@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:20:00 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:25:29 PM]: ****** User Inputted the Following *******
+{
+            "fname": "Kylie",
+            "lname": "Jenner",
+            "gender": "female",
+            "email": "staywavy@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:25:29 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:30:40 PM]: ****** User Inputted the Following *******
+{
+             "fname": "Megan",
+            "lname": "Thee Stallion",
+            "gender": "female",
+            "email": "hotgirlcoach@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:30:40 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:37:39 PM]: ****** User Inputted the Following *******
+{
+         "fname": "Lamelo",
+            "lname": "Ball",
+            "gender": "male",
+            "email": "melo@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:37:39 PM"
+}
+****** Appended Entry to JSON *******
+[08/23/2021 - 05:48:02 PM]: ****** User Inputted the Following *******
+{
+            "fname": "Maya",
+            "lname": "Jama",
+            "gender": "female",
+            "email": "beauty@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:48:02 PM"
+}
+****** Appended Entry to JSON *******[8/23/2021 - 5:51:37 PM]: ****** User Inputted the Following *******
+{
+    "fname": "Steph Curry",
+    "lname": "Lee",
+    "gender": "male",
+    "email": "yesssuh@yahoo.com",
+    "current_date": "8/23/2021",
+    "current_time": "5:51:37 PM"
+}
+****** Appended Entry to JSON *******
+[8/23/2021 - 5:54:21 PM]: ****** User Inputted the Following *******
+{
+    "fname": "Justin",
+    "lname": "Bieber",
+    "gender": "male",
+    "email": "jb@gmail.com",
+    "current_date": "8/23/2021",
+    "current_time": "5:54:21 PM"
+}
+****** Appended Entry to JSON *******
+[8/23/2021 - 5:54:48 PM]: ****** User Inputted the Following *******
+{
+    "fname": "leo",
+    "lname": "messi",
+    "gender": "male",
+    "email": "TheGOAT@gmail.com",
+    "current_date": "8/23/2021",
+    "current_time": "5:54:48 PM"
+}
+****** Appended Entry to JSON *******

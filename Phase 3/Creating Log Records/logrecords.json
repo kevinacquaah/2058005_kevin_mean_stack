@@ -1,0 +1,84 @@
+{
+    "people": [
+        {
+            "fname": "Steph",
+            "lname": "Curry",
+            "gender": "male",
+            "email": "steph.curry@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:16:40 PM"
+        },
+        {
+            "fname": "Chandler",
+            "lname": "Bing",
+            "gender": "male",
+            "email": "mr.jokes@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:17:03 PM"
+        },
+        {
+            "fname": "LeBron",
+            "lname": "James",
+            "gender": "male",
+            "email": "king.james@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:18:58 PM"
+        },
+        {
+            "fname": "Jennifer",
+            "lname": "Aniston",
+            "gender": "female",
+            "email": "so.fine@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:20:00 PM"
+        },
+        {
+            "fname": "Kylie",
+            "lname": "Jenner",
+            "gender": "female",
+            "email": "staywavy@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:25:29 PM"
+        },
+        {
+            "fname": "Megan",
+            "lname": "Thee Stallion",
+            "gender": "female",
+            "email": "hotgirlcoach@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:30:40 PM"
+        },
+        {
+            "fname": "Lamelo",
+            "lname": "Ball",
+            "gender": "male",
+            "email": "melo@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:37:39 PM"
+        },
+        {
+            "fname": "Maya",
+            "lname": "Jama",
+            "gender": "female",
+            "email": "beauty@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "05:48:40 PM"
+        },
+        {
+            "fname": "Justin",
+            "lname": "Bieber",
+            "gender": "male",
+            "email": "jb@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "5:54:21 PM"
+        },
+        {
+            "fname": "leo",
+            "lname": "messi",
+            "gender": "male",
+            "email": "TheGOAT@gmail.com",
+            "current_date": "8/23/2021",
+            "current_time": "5:54:48 PM"
+        }
+    ]
+}
