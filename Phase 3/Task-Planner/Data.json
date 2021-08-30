@@ -1,0 +1,46 @@
+{
+    "tasks": [
+        {
+            "taskid": "420",
+            "empid": "246810",
+            "empName": "Naruto",
+            "task": "Protect the Hidden Leaf"
+        },
+        {
+            "taskid": "457",
+            "empid": "786378",
+            "empName": "Sasuke",
+            "task": "Revive the Uchiha Clan"
+        },
+        {
+            "taskid": "470",
+            "empid": "832877",
+            "empName": "Shikamura",
+            "task": "Advisor of the Hidden Leaf"
+        },
+        {
+            "taskid": "704",
+            "empid": "632863",
+            "empName": "Delta",
+            "task": "Espionage"
+        },
+        {
+            "taskid": "785",
+            "empid": "943049",
+            "empName": "Sarada",
+            "task": "Heir to the Uchiha Clan"
+        },
+        {
+            "taskid": "790",
+            "empid": "378209",
+            "empName": "Boruto",
+            "task": "Protector of the Hidden Leaf"
+        },
+        {
+            "taskid": "800",
+            "empid": "273902",
+            "empName": "Mitsuki",
+            "task": "Boruto's Protector"
+        }
+    ]
+}
