@@ -1,0 +1,17 @@
+{
+  "name": "callrecordanalysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start1": "node mongodb_insert.js",
+    "start2": "node mongoose_insert.js"
+  },
+  "keywords": [],
+  "author": "Kevin Acquaah",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "file:node_modules/mongodb",
+    "mongoose": "^5.12.4"
+  }
+}
