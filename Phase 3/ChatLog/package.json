@@ -1,0 +1,18 @@
+{
+  "name": "chatlog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Acquaah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^6.0.5",
+    "socket.io": "^4.2.0"
+  }
+}
